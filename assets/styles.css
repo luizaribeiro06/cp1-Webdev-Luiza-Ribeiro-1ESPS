@@ -1,0 +1,28 @@
+h3{
+    font-weight: bold;
+}
+
+#horaIni, #minIni, #horaFim, #minFim{
+    width: 30px;
+    border-radius: 8px;
+}
+
+.inicio-h-m, .termino-h-m{
+    display: flex;
+    gap: 20px;
+    height: 30px;
+    align-items: center;
+}
+
+.section1, .section2{
+    margin-bottom: 25px;
+}
+
+.btn-calcular{
+    background-color: azure;
+    border-radius: 8px;
+    padding: 10px 12px 10px 12px;
+    cursor: pointer;
+    border-color: none;
+    box-shadow: none;
+}

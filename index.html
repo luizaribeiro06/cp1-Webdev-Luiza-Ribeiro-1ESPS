@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>CP 1 - Luiza Ribeiro - 1ESPS</title>
+</head>
+<body>
+    <main>
+        <h1> Webdev CP01 Ex01</h1>
+        <h2> Calcular o tempo de duração da reunião.</h2>
+
+        <section class="section1">
+            <h3>Início</h3>
+            <div class="inicio-h-m"> 
+                <h4>Horas:</h4> <input type="text" id="horaIni">
+                <h4>Minutos:</h4> <input type="text" id="minIni">
+            </div>
+        </section>
+
+        <section class="section2">
+            <h3>Término</h3>
+            <div class="termino-h-m"> 
+                <h4>Horas:</h4> <input type="text" id="horaFim">
+                <h4>Minutos:</h4> <input type="text" id="minFim">
+            </div>
+        </section>
+
+        <section class="btn-section">
+            <button class="btn-calcular" onclick="calcular()"> Calcular duração: </button>
+            <h2>Duração
+                <span id="horas"> 00 </span> <span>:</span> <span id="minutos"> 00 </span>
+            </h2>
+        </section>
+
+        <script src="./script.js"> </script>
+    </main>
+</body>
+</html>
